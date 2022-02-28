@@ -1,0 +1,75 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: chocolate;
+}
+.mainDiv{
+    margin: 50px auto;
+    padding: 40px auto;
+    height: 600px;
+    width: 400px;
+    background: #ffff;
+    box-shadow: 3px 4px 5px 6px rgba(10, 0, 5, 4);
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgb(133, 48, 133);
+    margin: 0 auto;
+    padding: 0 auto;
+    color: #ffff;
+}
+#inputTxt:focus, input:focus{
+    outline: none;
+}
+#inputTxt{
+    background-color: transparent;
+    border: 0px solid;
+    border-bottom: 4px solid rgb(12, 82, 87);
+    border-radius: 2px;
+    margin: 20px auto;
+    width: 60%;
+    height: 40px;
+    font-size:24px;
+    text-align: center;
+}
+#inputTxt:hover{
+    border: none;
+    border-bottom: 2px solid rgb(48, 127, 133);
+}
+#btn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: rgb(133, 48, 133);
+    font-size:28px;
+    color: #ffff;
+}
+#btn:hover{ 
+    background-color: rgb(11, 241, 11);
+}
+ol{ 
+    /* display: inline; */
+    position:fixed;
+    list-style-type:none;  
+    font-size: 25px;  
+    margin-left: 20px;
+    color: rgb(133, 48, 133);
+}
+i{
+     color: rgb(255, 0, 0); 
+}
+i{
+    margin-right: 10px;
+    padding : 5px;
+}
+.list{
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: first baseline;
+    text-align: left;
+
+}
