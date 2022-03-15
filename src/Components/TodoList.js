@@ -21,7 +21,6 @@ function TodoList() {
             return olditem.filter((arrEle,index)=>{
                   return index !== id;
             })
-            setText("");
         });
     }
     return (
