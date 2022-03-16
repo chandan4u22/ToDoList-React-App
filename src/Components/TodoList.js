@@ -10,11 +10,13 @@ function TodoList() {
     }
 
     const handleClick = () => {
-        setItem((olditem) => {
-            return[...olditem,text]
-        });
-        setText("");
-    }
+        if (text.trim() !== "") {
+            setItem([...item, text]);
+            setText("");
+          }else{
+              alert("Sorry you can't add empty data")
+          }
+    };
 
     const deleteBtn = (id) => {
         setItem((olditem) => {
