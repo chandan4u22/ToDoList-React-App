@@ -2,7 +2,7 @@
 box-sizing: border-box;
 }
 body{
-    background-color: #1e90ff;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
 }
 .mainDiv{
     margin: 50px auto;
@@ -16,7 +16,7 @@ body{
     box-sizing: border-box;
 }
 h1{
-    background-color: rgb(133, 48, 133);
+    background-color: rgb(22, 165, 129);
     margin: 0 auto;
     padding: 0 auto;
     color: #ffff;
@@ -44,7 +44,7 @@ h1{
     width: 40px;
     height: 40px;
     margin: 20px auto;
-    background-color: rgb(133, 48, 133);
+    background-color: rgb(22, 165, 129);
     font-size:28px;
     color: #ffff;
 }
@@ -57,7 +57,7 @@ ol{
     list-style-type:none;  
     font-size: 25px;  
     margin-left: 20px;
-    color: rgb(133, 48, 133);
+    color: rgb(138, 13, 127);
 }
 i{
      color: rgb(255, 0, 0); 
